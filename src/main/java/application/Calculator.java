@@ -105,4 +105,8 @@ public class Calculator {
     leistung = spannung * strom;
     System.out.println("leistung: " + leistung + "\n" + "formel: u * i");
 }
+	public void getLeistungWiderstandUndStrom(double widerstand, double strom) {
+		leistung = Math.pow(strom, 2) * widerstand;
+		System.out.println("leistung: " + leistung + "\n" + "formel: r * (i * i)");
+	}
 }

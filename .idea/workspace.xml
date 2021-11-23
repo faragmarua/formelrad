@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a6ca383-6f84-49b7-9a2d-c68da8fb7613" name="Default Changelist" comment="Default chengelist">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/application/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/Calculator.java" afterDir="false" />
     </list>
@@ -71,5 +72,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Default chengelist" />
     <option name="LAST_COMMIT_MESSAGE" value="Default chengelist" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="374" y="0" key="CommitChangelistDialog2" timestamp="1637665825556">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="374" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1637665825556" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1637665836620">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1637665836620" />
   </component>
 </project>
