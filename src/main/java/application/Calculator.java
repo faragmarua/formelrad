@@ -47,9 +47,58 @@ public class Calculator {
 		/* Hier auf Grund der vorhanden Werte entscheiden
 		 * welche Methode unten aufgerufen werden muss.
 		 */
+		if (leistung != 0.0) {
+			if (spannung != 0.0) {
+				getWiderstandFromSpannungUndLeistung(leistung, spannung);
+				getStromFromLeistungUndSpannung(leistung, spannung);
+			} else if (strom != 0.0) {
+				getSpannungFromLeistungUndStrom(leistung, strom);
+				getWiderstandFromLeistungUndStrom(leistung, strom);
+			} else if (widerstand != 0.0) {
+				getSpannungFromLeistungUndWiderstand(leistung, widerstand);
+				getStromFromLeistungUndWiderstand(leistung, widerstand);
+			}
+		} else if (spannung != 0.0) {
+			if (leistung != 0.0) {
+				getStromFromLeistungUndSpannung(leistung, spannung);
+				getWiderstandFromSpannungUndLeistung(spannung, leistung);
+			} else if (strom != 0.0) {
+				getLeistungFromSpannungUndStrom(spannung, strom);
+				getWiderstandFromSpannungUndStrom(spannung, strom);
+			} else if (widerstand != 0.0) {
+				getLeistungFromSpannungUndWiderstand(spannung, widerstand);
+				getStromFromSpannungUndWiderstand(spannung, widerstand);
+			}
+		} else if (strom != 0.0) {
+			if (leistung != 0.0) {
+				getSpannungFromLeistungUndStrom(leistung, strom);
+				getWiderstandFromLeistungUndStrom(leistung, strom);
+			} else if (spannung != 0.0) {
+				getLeistungFromSpannungUndStrom(spannung, strom);
+				getWiderstandFromSpannungUndStrom(spannung, strom);
+			} else if (widerstand != 0.0) {
+				getSpannungFromWiderstandUndStrom(widerstand, strom);
+				getLeistungWiderstandUndStrom(widerstand, strom);
+			}
+		} else if (widerstand != 0.0) {
+			if (leistung != 0.0) {
+				getSpannungFromLeistungUndWiderstand(leistung, widerstand);
+				getStromFromLeistungUndWiderstand(leistung, widerstand);
+			} else if (spannung != 0.0) {
+				getLeistungFromSpannungUndWiderstand(spannung, widerstand);
+				getStromFromSpannungUndWiderstand(spannung, widerstand);
+			} else if (strom != 0.0) {
+				getSpannungFromWiderstandUndStrom(widerstand, strom);
+				getLeistungWiderstandUndStrom(widerstand, strom);
+			}
+		}
+
 	}
 	
-	/* Hier die Methoden mit den Formlen hinzufügen
+	/* Hier die Methoden mit den Formlen hinzufï¿½gen
 	 */
-	
+	public void getLeistungFromSpannungUndWiderstand(double spannung, double widerstand) {
+		leistung = Math.pow(spannung, 2) / widerstand;
+		System.out.println("leistung: " + leistung + "\n" + "formel: (u*u) / r");
+	}
 }
