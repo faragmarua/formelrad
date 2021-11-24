@@ -125,4 +125,8 @@ public void getSpannungFromLeistungUndStrom(double leistung, double strom) {
 		strom = Math.sqrt((leistung / widerstand));
 		System.out.println("strom: " + strom + "\n" + "formel: (p / r)^(1/2)");
 	}
+  public void getStromFromLeistungUndSpannung(double leistung, double spannung) {
+    strom = leistung / spannung;
+    System.out.println("strom: " + strom + "\n" + "formel: p / u");
+}
 }
