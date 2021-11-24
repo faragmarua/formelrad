@@ -113,4 +113,8 @@ public class Calculator {
     spannung = Math.sqrt((leistung * widerstand));
     System.out.println("spannung: " + spannung + "\n" + "formel: (p * r)^(1/2) ");
 }
+public void getSpannungFromLeistungUndStrom(double leistung, double strom) {
+  spannung = leistung / strom;
+  System.out.println("spannung: " + spannung + "\n" + "formel: p / i");
+}
 }
