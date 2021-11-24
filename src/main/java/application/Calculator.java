@@ -133,4 +133,12 @@ public void getStromFromSpannungUndWiderstand(double spannung, double widerstand
   strom = spannung / widerstand;
   System.out.println("strom: " + strom + "\n" + "formel: u / r");
 }
+public void getWiderstandFromSpannungUndLeistung(double spannung, double leistung) {
+  widerstand = Math.pow(spannung, 2) / leistung;
+  System.out.println("widerstand: " + widerstand + "\n" + "formel: (u*u) / p");
+}
+public void getWiderstandFromLeistungUndStrom(double leistung, double strom) {
+  widerstand = leistung / Math.pow(strom, 2);
+  System.out.println("widerstand: " + widerstand + "\n" + "formel: p / (i * i)");
+}
 }
