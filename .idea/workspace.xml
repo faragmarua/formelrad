@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a6ca383-6f84-49b7-9a2d-c68da8fb7613" name="Default Changelist" comment="Default chengelist">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8a6ca383-6f84-49b7-9a2d-c68da8fb7613" name="Default Changelist" comment="Default chengelist" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +39,7 @@
       <workItem from="1636620050198" duration="704000" />
       <workItem from="1636642680458" duration="2639000" />
       <workItem from="1637664043070" duration="1023000" />
-      <workItem from="1637759069274" duration="950000" />
+      <workItem from="1637759069274" duration="1262000" />
     </task>
     <task id="LOCAL-00001" summary="Default chengelist">
       <created>1636037644431</created>
